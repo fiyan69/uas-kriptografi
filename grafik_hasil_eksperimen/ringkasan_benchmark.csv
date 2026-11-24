@@ -1,0 +1,97 @@
+metric,file_size_bytes,algorithm,n,displayed_unit,q1,median,q3
+execution_time_seconds,1024,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),0.006308286900674263,0.006522924587698776,0.0068671577617155505
+execution_time_seconds,10240,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),0.011775043624992855,0.012067169251217098,0.012662174984760922
+execution_time_seconds,102400,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),0.05463680356510931,0.05581513278316291,0.056896965085228485
+execution_time_seconds,1048576,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),0.7823780439711767,0.8110262099602525,0.9095732061866098
+execution_time_seconds,10485760,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),7.518346709401709,9.583161103479853,10.11330615151515
+execution_time_seconds,52428800,AES-128-CTR,30,Waktu per enkripsi (ms; skala log),36.00743839285714,38.36864074074074,44.133869519927536
+execution_time_seconds,1024,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),0.006403976316341048,0.00657461805230405,0.006756347520609135
+execution_time_seconds,10240,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),0.012471634493686864,0.012992319990666048,0.013748792808888537
+execution_time_seconds,102400,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),0.06192259057154666,0.0639335705491991,0.06537996142105332
+execution_time_seconds,1048576,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),0.8604169724819903,0.9178650099023735,1.008714298003181
+execution_time_seconds,10485760,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),8.252634226392088,10.344087042297978,10.647391223404256
+execution_time_seconds,52428800,AES-256-CTR,30,Waktu per enkripsi (ms; skala log),39.52957307692308,42.71834375,47.423506818181814
+execution_time_seconds,1024,ChaCha20,30,Waktu per enkripsi (ms; skala log),0.01001976538359376,0.010428958300790828,0.010776936880397048
+execution_time_seconds,10240,ChaCha20,30,Waktu per enkripsi (ms; skala log),0.025558205093849557,0.027099511324367866,0.02772091449043397
+execution_time_seconds,102400,ChaCha20,30,Waktu per enkripsi (ms; skala log),0.16569676460717597,0.16959500726689714,0.17208958493517945
+execution_time_seconds,1048576,ChaCha20,30,Waktu per enkripsi (ms; skala log),1.969223981231533,2.0382918519116453,2.129980478864469
+execution_time_seconds,10485760,ChaCha20,30,Waktu per enkripsi (ms; skala log),20.086248,21.074855208333336,21.754831741443105
+execution_time_seconds,52428800,ChaCha20,30,Waktu per enkripsi (ms; skala log),90.65168333333334,93.32460454545455,97.27335909090908
+execution_time_seconds,1024,3DES-CTR,30,Waktu per enkripsi (ms; skala log),0.2397883226538991,0.24736103643137686,0.2541451120398106
+execution_time_seconds,10240,3DES-CTR,30,Waktu per enkripsi (ms; skala log),2.164622192224622,2.3014234161628546,2.334703846153846
+execution_time_seconds,102400,3DES-CTR,30,Waktu per enkripsi (ms; skala log),20.725216326530614,21.150447916666664,21.71157479185939
+execution_time_seconds,1048576,3DES-CTR,30,Waktu per enkripsi (ms; skala log),218.40290999999996,221.76596,224.92495
+execution_time_seconds,10485760,3DES-CTR,30,Waktu per enkripsi (ms; skala log),2190.40775,2221.3804,2258.000975
+execution_time_seconds,52428800,3DES-CTR,30,Waktu per enkripsi (ms; skala log),10889.508825,11061.03285,11183.050650000001
+throughput_mb_per_sec,1024,AES-128-CTR,30,Throughput (MiB/s; skala log),142.20772376174526,149.7198607754411,154.81575236932608
+throughput_mb_per_sec,10240,AES-128-CTR,30,Throughput (MiB/s; skala log),771.2445620421873,809.2774495653097,829.3511731697763
+throughput_mb_per_sec,102400,AES-128-CTR,30,Throughput (MiB/s; skala log),1716.4007386328547,1749.6375331827644,1787.389734949954
+throughput_mb_per_sec,1048576,AES-128-CTR,30,Throughput (MiB/s; skala log),1100.9259446623926,1233.118721107782,1278.2018490772198
+throughput_mb_per_sec,10485760,AES-128-CTR,30,Throughput (MiB/s; skala log),988.8089057430799,1043.5140063472204,1330.44192000166
+throughput_mb_per_sec,52428800,AES-128-CTR,30,Throughput (MiB/s; skala log),1132.9524246351318,1303.1489218320953,1388.603353887867
+throughput_mb_per_sec,1024,AES-256-CTR,30,Throughput (MiB/s; skala log),144.54287291851307,148.53554534667586,152.49319513195366
+throughput_mb_per_sec,10240,AES-256-CTR,30,Throughput (MiB/s; skala log),710.2951098674487,751.7267377689686,783.031188807785
+throughput_mb_per_sec,102400,AES-256-CTR,30,Throughput (MiB/s; skala log),1493.6760568819134,1527.4647982820193,1577.0732356493745
+throughput_mb_per_sec,1048576,AES-256-CTR,30,Throughput (MiB/s; skala log),992.1344958467708,1089.4853900118064,1162.2280883438943
+throughput_mb_per_sec,10485760,AES-256-CTR,30,Throughput (MiB/s; skala log),939.1972377074104,966.993043089683,1211.73521147881
+throughput_mb_per_sec,52428800,AES-256-CTR,30,Throughput (MiB/s; skala log),1054.3328647418853,1170.459332527052,1264.878081030948
+throughput_mb_per_sec,1024,ChaCha20,30,Throughput (MiB/s; skala log),90.61601341556515,93.63951888786164,97.46590416532786
+throughput_mb_per_sec,10240,ChaCha20,30,Throughput (MiB/s; skala log),352.28448021088866,360.36529498390485,382.0935410130175
+throughput_mb_per_sec,102400,ChaCha20,30,Throughput (MiB/s; skala log),567.4733310584593,575.8218235248687,589.367339290169
+throughput_mb_per_sec,1048576,ChaCha20,30,Throughput (MiB/s; skala log),469.5310507832645,490.60713937382786,507.8143920779919
+throughput_mb_per_sec,10485760,ChaCha20,30,Throughput (MiB/s; skala log),459.6683763814511,474.499825859168,497.8595701693527
+throughput_mb_per_sec,52428800,ChaCha20,30,Throughput (MiB/s; skala log),514.0237681239092,535.7738909931152,551.5618796320571
+throughput_mb_per_sec,1024,3DES-CTR,30,Throughput (MiB/s; skala log),3.8425561075459678,3.947934936931435,4.072610011713005
+throughput_mb_per_sec,10240,3DES-CTR,30,Throughput (MiB/s; skala log),4.1828127011099605,4.243312211076313,4.511480532953426
+throughput_mb_per_sec,102400,3DES-CTR,30,Throughput (MiB/s; skala log),4.498055406100566,4.617220064319987,4.711955893991698
+throughput_mb_per_sec,1048576,3DES-CTR,30,Throughput (MiB/s; skala log),4.445927411119589,4.509282925181521,4.578694069834078
+throughput_mb_per_sec,10485760,3DES-CTR,30,Throughput (MiB/s; skala log),4.428699478221251,4.5017183174253965,4.565380063087218
+throughput_mb_per_sec,52428800,3DES-CTR,30,Throughput (MiB/s; skala log),4.471052121618351,4.520376226755289,4.591575776783464
+process_cpu_usage_percent,1024,AES-128-CTR,30,CPU thread (% dari satu thread),78.51545578164384,89.06193445749125,93.35919312536055
+process_cpu_usage_percent,10240,AES-128-CTR,30,CPU thread (% dari satu thread),91.01439829787964,93.72138978649528,98.43014340431185
+process_cpu_usage_percent,102400,AES-128-CTR,30,CPU thread (% dari satu thread),89.83731105064834,96.87104281834863,98.43417784651614
+process_cpu_usage_percent,1048576,AES-128-CTR,30,CPU thread (% dari satu thread),87.840288331188,92.11857259902109,98.35784500733922
+process_cpu_usage_percent,10485760,AES-128-CTR,30,CPU thread (% dari satu thread),90.15569082018067,94.28995571566412,98.29473020367814
+process_cpu_usage_percent,52428800,AES-128-CTR,30,CPU thread (% dari satu thread),88.28690532778765,94.97382145051262,98.15091602627575
+process_cpu_usage_percent,1024,AES-256-CTR,30,CPU thread (% dari satu thread),89.06206136936795,91.40574797374677,93.74995078128023
+process_cpu_usage_percent,10240,AES-256-CTR,30,CPU thread (% dari satu thread),91.01513441708698,93.74967187652342,95.31213543108215
+process_cpu_usage_percent,102400,AES-256-CTR,30,CPU thread (% dari satu thread),86.25901602240887,92.96688949056781,98.43495791789852
+process_cpu_usage_percent,1048576,AES-256-CTR,30,CPU thread (% dari satu thread),90.45834908773323,95.28735844148396,97.92919852127491
+process_cpu_usage_percent,10485760,AES-256-CTR,30,CPU thread (% dari satu thread),91.35492181035215,96.39486066882563,98.3864326642541
+process_cpu_usage_percent,52428800,AES-256-CTR,30,CPU thread (% dari satu thread),85.71377118712485,96.04555172017595,98.43568167678829
+process_cpu_usage_percent,1024,ChaCha20,30,CPU thread (% dari satu thread),85.93658047933394,90.62474625071866,95.31218070471576
+process_cpu_usage_percent,10240,ChaCha20,30,CPU thread (% dari satu thread),87.49779068355778,91.40495775441372,96.48351325355343
+process_cpu_usage_percent,102400,ChaCha20,30,CPU thread (% dari satu thread),90.61669054251286,95.30059219343553,98.42992090502204
+process_cpu_usage_percent,1048576,ChaCha20,30,CPU thread (% dari satu thread),89.01445922056143,92.90356187954782,98.28358821947778
+process_cpu_usage_percent,10485760,ChaCha20,30,CPU thread (% dari satu thread),88.987978143341,92.57682990331067,98.1989617129425
+process_cpu_usage_percent,52428800,ChaCha20,30,CPU thread (% dari satu thread),90.13430934539363,92.20205822784598,96.17261501049589
+process_cpu_usage_percent,1024,3DES-CTR,30,CPU thread (% dari satu thread),85.93050538736367,89.83999329943424,96.86969157054475
+process_cpu_usage_percent,10240,3DES-CTR,30,CPU thread (% dari satu thread),89.00774955832273,93.59858091164452,95.19831168155979
+process_cpu_usage_percent,102400,3DES-CTR,30,CPU thread (% dari satu thread),88.40321381235682,92.78992872283888,96.04078685249436
+process_cpu_usage_percent,1048576,3DES-CTR,30,CPU thread (% dari satu thread),90.4693121534898,93.45064409084577,95.5851250643262
+process_cpu_usage_percent,10485760,3DES-CTR,30,CPU thread (% dari satu thread),91.77462625462294,94.46418477498456,96.25314933088072
+process_cpu_usage_percent,52428800,3DES-CTR,30,CPU thread (% dari satu thread),90.57758630108938,92.06161590108414,93.62612223822907
+memory_peak_delta_bytes,1024,AES-128-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,10240,AES-128-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,102400,AES-128-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,1048576,AES-128-CTR,30,Delta peak RSS (MiB),2.02734375,2.02734375,2.02734375
+memory_peak_delta_bytes,10485760,AES-128-CTR,30,Delta peak RSS (MiB),20.0166015625,20.02734375,20.02734375
+memory_peak_delta_bytes,52428800,AES-128-CTR,30,Delta peak RSS (MiB),99.1328125,99.5859375,100.01171875
+memory_peak_delta_bytes,1024,AES-256-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,10240,AES-256-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,102400,AES-256-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,1048576,AES-256-CTR,30,Delta peak RSS (MiB),2.02734375,2.02734375,2.02734375
+memory_peak_delta_bytes,10485760,AES-256-CTR,30,Delta peak RSS (MiB),19.951171875,20.017578125,20.02734375
+memory_peak_delta_bytes,52428800,AES-256-CTR,30,Delta peak RSS (MiB),99.3466796875,99.806640625,99.978515625
+memory_peak_delta_bytes,1024,ChaCha20,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,10240,ChaCha20,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,102400,ChaCha20,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,1048576,ChaCha20,30,Delta peak RSS (MiB),2.02734375,2.02734375,2.02734375
+memory_peak_delta_bytes,10485760,ChaCha20,30,Delta peak RSS (MiB),19.861328125,19.97265625,20.01171875
+memory_peak_delta_bytes,52428800,ChaCha20,30,Delta peak RSS (MiB),99.20703125,99.654296875,99.8466796875
+memory_peak_delta_bytes,1024,3DES-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,10240,3DES-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,102400,3DES-CTR,30,Delta peak RSS (MiB),0.01953125,0.01953125,0.01953125
+memory_peak_delta_bytes,1048576,3DES-CTR,30,Delta peak RSS (MiB),2.01953125,2.0234375,2.02734375
+memory_peak_delta_bytes,10485760,3DES-CTR,30,Delta peak RSS (MiB),9.9931640625,10.0078125,10.015625
+memory_peak_delta_bytes,52428800,3DES-CTR,30,Delta peak RSS (MiB),49.984375,50.0,50.0107421875

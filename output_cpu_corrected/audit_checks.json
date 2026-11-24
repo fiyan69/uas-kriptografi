@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "raw_rows": 720,
+  "rounds": 180,
+  "cv_rounds": 144,
+  "holdout_rounds": 36,
+  "checks": [
+    "raw hashes preserved",
+    "complete grouped partitions",
+    "CV excludes holdout",
+    "each train round tested once",
+    "metrics reproduced from predictions",
+    "throughput consistent",
+    "unseen strata raw",
+    "test mutation leaves bounds scaler rule unchanged",
+    "two-run report byte identical"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sources_sha256": {
+    "raw_dataset_cpu_corrected.csv": "b95ddcd73a6fd19cfcfc6190e9c693b3250baf1d5f4d8f56e6a7344be9091096",
+    "evaluation_final.json": "c04ff66f139ce6b25019644264eaf79a31c16c916849119175b976ac39ac0c69",
+    "labeled_dataset.csv": "585a8d2f931f353c820ab8c6d90fd454a2b1c0a032a0267fca198b923e4f9afe"
+  },
+  "raw_rows": 720,
+  "independent_rounds": 180,
+  "summary_quantiles": "numpy.percentile default linear; descriptive display only, not IQR fences used for winsorization",
+  "benchmark_source": "raw measurements, no clipping",
+  "figures": [
+    "01_execution_time_seconds.png",
+    "02_throughput_mb_per_sec.png",
+    "03_process_cpu_usage_percent.png",
+    "04_memory_peak_delta_bytes.png",
+    "05_distribusi_label.png",
+    "06_model_cv.png",
+    "07_model_holdout.png",
+    "08_model_ukuran_baru.png",
+    "09_confusion_matrix_cv.png",
+    "10_confusion_matrix_holdout.png",
+    "11_confusion_matrix_ukuran_baru.png",
+    "12_variasi_akurasi_cv.png"
+  ],
+  "model_values": "directly from canonical evaluation JSON; no retraining"
+}
